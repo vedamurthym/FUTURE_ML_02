@@ -1,0 +1,5 @@
+critical,precision,recall,f1_score,support
+Critical,1.0,0.8293,0.9067,41
+High,0.9917,0.9929,0.9923,841
+Medium,0.9892,0.9826,0.9859,747
+Low,0.8421,0.9846,0.9078,65

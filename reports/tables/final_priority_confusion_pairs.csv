@@ -1,0 +1,7 @@
+actual_priority,predicted_priority,count
+Medium,Low,12
+Critical,High,6
+High,Medium,6
+Critical,Medium,1
+Low,Medium,1
+Medium,High,1

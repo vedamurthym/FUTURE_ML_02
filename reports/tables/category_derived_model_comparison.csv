@@ -1,0 +1,6 @@
+Model,Class Weight,Accuracy,Weighted Precision,Weighted Recall,Weighted F1,Macro F1
+Linear SVM (Balanced),Balanced,0.9982,0.9983,0.9982,0.9982,0.9979
+Linear SVM (Standard),Standard,0.9982,0.9982,0.9982,0.9982,0.9978
+Logistic Regression (Standard),Standard,0.9953,0.9953,0.9953,0.9953,0.9947
+Logistic Regression (Balanced),Balanced,0.9947,0.9948,0.9947,0.9947,0.9945
+Multinomial Naive Bayes,None (N/A),0.5579,0.3112,0.5579,0.3995,0.1023

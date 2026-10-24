@@ -1,0 +1,3 @@
+model,accuracy,macro_f1,weighted_f1,important_class,important_class_recall,important_class_f1
+Category Model,0.9982,0.9979,0.9982,Macro F1,0.9979,0.9979
+Priority Model,0.9841,0.9482,0.9841,Critical,0.8293,0.9067

@@ -1,0 +1,8 @@
+account,precision,recall,f1_score,support
+Account & Access,1.0,1.0,1.0,102
+Billing & Payment,1.0,1.0,1.0,105
+Cancellation Request,1.0,1.0,1.0,98
+Delivery & Order Inquiry,0.9912,1.0,0.9956,112
+Product Inquiry,1.0,1.0,1.0,217
+Refund Request,0.9829,1.0,0.9914,115
+Technical Issue,1.0,0.9968,0.9984,945

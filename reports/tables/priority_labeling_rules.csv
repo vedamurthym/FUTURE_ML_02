@@ -1,0 +1,39 @@
+rule_name,priority,description,matched_keyword_or_pattern,field_checked
+critical_security_threat,Critical,"Explicit security threat: hacking, breach, fraud, stolen credentials",hack | hacked | breach | fraud | stolen | security breach,ticket_text
+critical_data_loss_confirmed,Critical,Confirmed data loss or total wipe event,lost everything | all data lost | completely lost | entire data | wiped,ticket_text
+critical_emergency_language,Critical,Customer uses explicit emergency / critical / urgent-now language,emergency | critical issue | absolutely urgent | urgent help needed | urgent assistance | extremely urgent,ticket_text
+critical_complete_device_failure,Critical,"Device completely dead, unresponsive, will not turn on at all",unresponsive | completely dead | totally unresponsive | not turning on | won't turn on,ticket_text
+high_account_access_blocked,High,Customer is locked out of account / cannot log in,unable to access | unable to log in | unable to login | invalid credentials | cannot log in | login failed | account locked | access denied | regain access,ticket_text
+high_account_access_subject,High,Ticket Subject = account access,account access,Ticket Subject
+high_data_loss_subject,High,Ticket Subject = data loss,data loss,Ticket Subject
+high_data_loss_text,High,Data loss or deleted files mentioned in ticket text,data loss | lost data | deleted files | files deleted | data deleted | lost my data,ticket_text
+high_payment_failure,High,Payment processing failure or transaction error,payment failed | transaction failed | payment error | charged incorrectly | overcharged | double charged | billing error | wrong charge,ticket_text
+high_payment_subject,High,Ticket Subject = payment issue,payment issue,Ticket Subject
+high_network_blocked,High,Complete network failure preventing use of product/service,no internet | network down | completely disconnected | unable to connect | connection failed,ticket_text
+high_network_problem_subject,High,Ticket Subject = network problem,network problem,Ticket Subject
+high_software_crash,High,Application crash preventing use,application crashes | crashes | app crashes | crashes when | crash every time | keeps crashing,ticket_text
+high_software_bug_subject,High,Ticket Subject = software bug,software bug,Ticket Subject
+high_hardware_failure,High,Hardware not charging or other significant hardware fault,not charging | hardware failure | hardware fault | device broken | not working at all,ticket_text
+high_hardware_issue_subject,High,Ticket Subject = hardware issue,hardware issue,Ticket Subject
+high_urgent_language,High,Customer uses urgent / ASAP language (without explicit critical indicators),urgent | asap | as soon as possible | immediately | right away | cannot wait,ticket_text
+medium_refund_request,Medium,Customer requests a refund,refund | money back | reimbursement,ticket_text
+medium_refund_subject,Medium,Ticket Subject = refund request,refund request,Ticket Subject
+medium_cancellation,Medium,Customer wants to cancel a subscription/order/service,cancel | cancellation | cancel my subscription | cancel order | cancel service,ticket_text
+medium_cancellation_subject,Medium,Ticket Subject = cancellation request,cancellation request,Ticket Subject
+medium_delivery_problem,Medium,Delivery or order tracking issue,delivery | shipping | not delivered | delivery delayed | order tracking | package,ticket_text
+medium_delivery_subject,Medium,Ticket Subject = delivery problem,delivery problem,Ticket Subject
+medium_installation_support,Medium,Customer needs help installing or setting up a product,installation | install | setup | set up | configure | getting started,ticket_text
+medium_installation_subject,Medium,Ticket Subject = installation support or product setup,installation support | product setup,Ticket Subject
+medium_compatibility,Medium,Product or peripheral compatibility question,compatibility | compatible | not compatible | works with,ticket_text
+medium_compatibility_subject,Medium,Ticket Subject = peripheral compatibility or product compatibility,peripheral compatibility | product compatibility,Ticket Subject
+medium_display_issue,Medium,Display or screen problem but product still partially usable,display issue | screen issue | screen flicker | display problem | blurry screen | flickering,ticket_text
+medium_display_subject,Medium,Ticket Subject = display issue,display issue,Ticket Subject
+medium_battery_life,Medium,Battery draining faster than expected but device still functional,battery life | battery drain | battery draining | decrease in battery | battery not lasting,ticket_text
+medium_battery_subject,Medium,Ticket Subject = battery life,battery life,Ticket Subject
+medium_general_not_working,Medium,General 'not working' without specific critical/high indicators,not working | stopped working | no longer works | broken | malfunctioning,ticket_text
+low_product_recommendation,Low,Customer asks for a product recommendation,recommendation | suggest | suggest a product | which product | what product | best product | advice,ticket_text
+low_recommendation_subject,Low,Ticket Subject = product recommendation,product recommendation,Ticket Subject
+low_general_inquiry,Low,General information request or how-to question,how do i | how can i | how to | what is | where can i | i would like to know | can you tell me,ticket_text
+low_troubleshooting_request,Low,"Customer asks about troubleshooting steps only, no urgency",troubleshooting | user manual | steps to fix | guide me | guide through,ticket_text
+low_firmware_update,Low,Firmware/software update question,firmware update | software update | firmware version | update available | latest update,ticket_text
+low_factory_reset,Low,Customer performed/asking about a factory reset,factory reset | reset the device | performed a factory,ticket_text
